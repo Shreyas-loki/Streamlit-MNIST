@@ -19,7 +19,7 @@ if uploaded_file is not None:
     # Open the image file
     image = Image.open(uploaded_file)
     imageg = image.convert('L')
-    imageresized=imageg.resize((28,28),Image.ANTIALIAS)
+    imageresized=imageg.resize((28,28),Image.LANCZOS)
     imagea = np.array(imageresized)
 
     # Display the image
