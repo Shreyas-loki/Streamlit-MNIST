@@ -1,0 +1,5 @@
+pickle
+numpy
+pillow
+tensorflow
+keras
